@@ -7,7 +7,7 @@
 # Source: https://github.com/ampledata/TAKNUC
 #
 
-FROM balenalib/%%RESIN_MACHINE_NAME%%-debian
+FROM debian
 
 RUN install_packages nginx
 
