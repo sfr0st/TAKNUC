@@ -7,7 +7,7 @@
 # Source: https://github.com/ampledata/TAKNUC
 #
 
-FROM balenalib/%%BALENA_MACHINE_NAME%%-python:3.8-buster-build
+FROM debian
 
 # For debugging:
 RUN install_packages netcat nmap vim
